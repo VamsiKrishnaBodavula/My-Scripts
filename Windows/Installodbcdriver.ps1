@@ -1,4 +1,6 @@
-## this script will check if there is an existing odbc driver in the PC, if not will install the mentioned version of driver in the windows 
+# Set the execution policy to bypass for the current PowerShell session
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 # Set the temporary file path
 $tempFile = "$env:USERPROFILE\Downloads\msodbcsql.msi"
 
